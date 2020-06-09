@@ -47,7 +47,6 @@ public void getrequest() {
 			.body("data.first_name", hasItems("George", "Janet", "Emma" ))
 			.body("data.last_name", hasItems("Wong","Holt", "Morris"), "data.id", hasItems(1, 2, 3, 4, 5));
 			
-			
 		}	
 	
 }
